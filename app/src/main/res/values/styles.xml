@@ -8,4 +8,36 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Text">
+
+    </style>
+
+    <style name="Text.BoldWhiteNormal">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+
+
+    <style name="Text.BoldWhiteLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/large_text</item>
+    </style>
+
+    <style name="Text.WhiteNormal">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+
+    <style name="Text.WhiteLarge">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/large_text</item>
+    </style>
+
+
+
+
+
+
 </resources>

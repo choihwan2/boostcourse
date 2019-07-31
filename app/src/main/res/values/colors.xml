@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#303AA5</color>
+    <color name="colorPrimaryDark">#242A8E</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="purple">#6808a4</color>
+    <color name="orange">#ff7f00</color>
+    <color name="reservation_orange">#E44418</color>
 </resources>
