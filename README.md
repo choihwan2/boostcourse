@@ -18,6 +18,18 @@
 ### 결과물
 <img src = "PTJ2.gif" width = "400"/>
 
+### 현업 개발자분 피드백
+```java
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="@dimen/small_margin"/>
+```
+
+>여백이나 위치를 조절하는 부분은 꼭 왼쪽이나 오른쪽에 있어야 하는 view가 아니라면 left /right 옵션을 사용하기보다는 Start 나 end 를 사용하시는 것을 추천 드립니다.
+>RTL 설정된 화면에서 left / right 로만 view 를 컨트롤 할 경우 의도하지 않은 결과가 나올 때가 종종 있으나, Start 나 End 를 사용할 경우 이런 문제를 깔끔하게 해결 할 수 있습니다. 
+
+
 ***
 
 
